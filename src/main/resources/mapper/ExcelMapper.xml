@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wings.easyexcel.mapper.ExcelMapper">
+    <resultMap type="com.wings.easyexcel.model.ImportModel" id="resultMap">
+        <!-- 用id属性来映射主键字段 -->
+        <id property="id" column="id"/>
+        <!-- 用result属性来映射非主键字段 -->
+        <result property="operator" column="operator"/>
+        <result property="region" column="region"/>
+        <result property="street" column="street"/>
+        <result property="station" column="station"/>
+        <result property="address" column="address"/>
+        <result property="longitude" column="longitude"/>
+        <result property="latitude" column="latitude"/>
+        <result property="linkman" column="linkman"/>
+        <result property="mobile" column="mobile"/>
+        <result property="type" column="type"/>
+        <result property="publicOrPrivate" column="public_or_private"/>
+        <result property="status" column="status"/>
+        <result property="frequency" column="frequency"/>
+        <result property="property" column="property"/>
+        <result property="isPublic" column="isPublic"/>
+        <result property="remark1" column="remark1"/>
+        <result property="remark2" column="remark2"/>
+        <result property="modtime" column="modtime"/>
+    </resultMap>
+</mapper>

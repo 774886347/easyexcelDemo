@@ -1,0 +1,13 @@
+<c3p0-config>
+    <default-config>
+        <property name="user">root</property>
+        <property name="password"></property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/import_test?serverTimezone=UTC</property>
+        <property name="initialPoolSize">3</property>
+        <property name="maxIdleTime">30</property>
+        <property name="maxPoolSize">600</property>
+        <property name="minPoolSize">3</property>
+        <property name="maxStatementsPerConnection">100</property>
+    </default-config>
+</c3p0-config>
